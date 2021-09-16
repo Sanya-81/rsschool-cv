@@ -1,1 +1,0 @@
-https://Sanya-81.github.io/rsschool-cv/cv
