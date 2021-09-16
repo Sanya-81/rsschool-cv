@@ -1,0 +1,93 @@
+
+/*---GRID---*/
+.g-parent__container {
+  display: grid;
+  grid: 
+  "header"  auto
+  "content" auto
+  "footer"  150px
+  /  minmax(320px, 768px); 
+  justify-content: center;
+}
+.g-parent-g-chd__header  { grid-area: header; }
+.g-parent-g-chd__content { grid-area: content;}
+.g-parent-g-chd__footer  { grid-area: footer; }
+/* ===END GRID=== */
+
+/*---STYLE---*/
+body {
+  margin:  0;
+  padding: 0;
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 1.3rem;
+  background-color: whitesmoke;
+
+}
+h2 {
+  font-family: 'Rampart One', cursive;
+  padding-left: 10px;
+}
+hr {
+  width: 80%;
+}
+table {
+  text-align: center;
+}
+th {
+  padding: 0 10px 10px 10px;
+}
+td {
+  padding: 5px;
+}
+article {margin-top: 50px;}
+iframe {
+  border: none; 
+  width: 90%;
+  height: 250px;
+  border-top: 1px solid grey;
+}
+.g-parent__container {
+  margin-top: 10px;
+}
+.g-parent-g-chd__content .example-code {
+  margin-left: 5%;
+}
+.f-parent__header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.flex-parent-f-chd__header {
+  flex-basis: 150px;
+  flex-grow: 1;
+  color: red;
+  margin: 20px;
+  text-align: center;
+}
+.f-parent__skillWork,
+.f-parent__educationLanguage {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.f-parent__footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.about,
+.example {
+  padding: 20px;
+  line-height: 1.5em;
+  
+}
+.noMark {
+  list-style-type: none; 
+}
+.text-center {
+  text-align: center;
+}
