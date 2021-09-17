@@ -5,7 +5,7 @@
   grid: 
   "header"  auto
   "content" auto
-  "footer"  150px
+  "footer"  auto
   /  minmax(320px, 768px); 
   justify-content: center;
 }
@@ -19,9 +19,13 @@ body {
   margin:  0;
   padding: 0;
   font-family: 'Love Ya Like A Sister', cursive;
-  font-size: 1.3rem;
-  background-color: whitesmoke;
+  font-size: 1.2rem;
+  background: rgb(249, 248, 253);
+  color: rgb(131, 0, 131);
 
+}
+h1 {
+  color: rgb(131, 0, 131);
 }
 h2 {
   font-family: 'Rampart One', cursive;
@@ -29,15 +33,17 @@ h2 {
 }
 hr {
   width: 80%;
+  height: 2px;
+  border: 2px solid  rgb(131, 0, 131);
 }
 table {
   text-align: center;
 }
-th {
-  padding: 0 10px 10px 10px;
-}
 td {
-  padding: 5px;
+  padding-bottom: 15px;
+}
+th{
+  padding-bottom: 20px;
 }
 article {margin-top: 50px;}
 iframe {
@@ -82,12 +88,32 @@ iframe {
 .about,
 .example {
   padding: 20px;
-  line-height: 1.5em;
+  line-height: 2em;
   
 }
-.noMark {
+.no-mark {
   list-style-type: none; 
 }
+.list-style-pos {
+  list-style-position: outside;
+}
+
 .text-center {
   text-align: center;
 }
+li > a {
+ margin-right: 10%;
+}
+.shadow-stydent,
+.shadow-rsschool
+ {
+  filter: drop-shadow(1px 1px 5px rgba(97, 12, 255, 0.5));
+ }
+ .shadow-body {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+  padding: 10px;
+ }
+
+ .section {
+   background-color: rgb(255, 251, 235);;
+ }
