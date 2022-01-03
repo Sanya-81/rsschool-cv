@@ -8,7 +8,7 @@
   "footer"  auto
   /  minmax(320px, 768px); 
   justify-content: center;
-  background-color: aqua;
+  background-color: hsl(260, 90%, 97%);
 }
 .g-parent-g-chd__header  { grid-area: header; }
 .g-parent-g-chd__content { grid-area: content;}
@@ -21,7 +21,7 @@ body {
   padding: 0;
   font-family: 'Love Ya Like A Sister', cursive;
   font-size: 1.2rem;
-  background: rgb(249, 248, 253);
+  /* background: rgb(249, 248, 253); */
   color: rgb(131, 0, 131);
 
 }
@@ -116,5 +116,5 @@ li > a {
  }
 
  .section {
-   background-color: rgb(255, 251, 235);;
+   background-color: hsl(0, 0%, 100%);
  }
