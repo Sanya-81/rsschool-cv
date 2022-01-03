@@ -8,6 +8,7 @@
   "footer"  auto
   /  minmax(320px, 768px); 
   justify-content: center;
+  background-color: aqua;
 }
 .g-parent-g-chd__header  { grid-area: header; }
 .g-parent-g-chd__content { grid-area: content;}
